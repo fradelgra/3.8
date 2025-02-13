@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: beige;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #ffeb99;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#quienes-somos {
+    background-color: orange;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#quienes-somos h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+#quienes-somos .contenido {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#quienes-somos .mapa,
+#quienes-somos .video {
+    flex: 1;
+    min-width: 300px;
+}
+
+footer {
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #dfffdf;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
